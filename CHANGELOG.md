@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* initial release（耳机状态监听，包括有线耳机和蓝牙耳机。获取当前耳机状态，监听耳机并实时获取状态。）
