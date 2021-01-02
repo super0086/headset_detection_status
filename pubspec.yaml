@@ -1,0 +1,26 @@
+name: headset_detection_status
+description: 耳机状态监听，包括有线耳机和蓝牙耳机。获取当前耳机状态，监听耳机并实时获取状态。
+version: 0.0.1
+author: Mervyn<super0086@qq.com>
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.mervyn.headset_detection_status
+        pluginClass: HeadsetDetectionStatusPlugin
+      ios:
+        pluginClass: HeadsetDetectionStatusPlugin
