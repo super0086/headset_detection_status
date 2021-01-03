@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:headset_detection_status/headset_detect.dart';
+import 'package:headset_detection_status/headset_detection_status.dart';
 
 void main() {
   runApp(MyApp());
